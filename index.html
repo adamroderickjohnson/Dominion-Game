@@ -17,12 +17,13 @@
 <body>
 <!--Top Navigation-->
 <nav class="nav-main">
-<div class="logo-dark">
-</div>
 <!--bootstrap Nav-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar fixed-top bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+        <!--Logo-->
+        <a class="navbar-brand" href="#">
+            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+          </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -61,6 +62,8 @@
               <li><a class="dropdown-item" href="#">Another action</a></li>
             </ul>
           </li>
+          <!--Settings Button-->
+          <button class="settingsBtn btn btn-outline-success me-2" type="button">Settings</button>
         </ul>
       </div>
     </div>
@@ -69,11 +72,28 @@
 
 <!-- HERO with background image and overview of game-->
 <header class="overviewHero">
-    <div class="hero-image">
-        
-    </div>
+    <!--Narrow Hero Image-->
+    <div class="my-5">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <h1 class="text-body-emphasis">Full-width jumbotron</h1>
+            <p class="col-lg-8 mx-auto lead">
+              This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+            </p>
+          </div>
+        </div>
+      </div>
+    <!--Overview section-->
     <section class="overview-explain">
-       
+        <!--bootstrap Card-->
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title">Overview</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>       
     </section>
 </header>
 
@@ -81,29 +101,92 @@
 <article class="digitalBenefits">
     <h2>Benefits of Playing Dominion Online</h2>
    <section class="benefits-container">
-
+    <!--card left aligned image 1-->
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--card left aligned image 2-->
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>   
    </section>
-   <button class="button-main"></button>
+   <!--Find out More Button-->
+   <button class="mainBtn" type="button"></button>
 </article>
 
 <!-- Phases of a Dominion game-->
 <article class="gamePhases">
     <h1>Phases of the Game</h1>
     <section class="phases-container">
-        
+        <!--Action Buy and Clean-up Cards-->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
-    <button class="bigButton"></button>
+    <!--Learn Advanced Rules Button-->
+    <button class="bigBtn" type="button"></button>
 </article>
 
 <!-- CTA to sign up for Dominion-->
 <article class="joinBox">
     <section class="join-container">
-        <h2>Join Now</h2>
-        <form class="emailPW">
-
-        </form>
-        <button class="button-main"></button>
-        <a href="#">I already have an account</a>
+        <div class="card">
+            <h5 class="card-header">Featured</h5>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <button class="mainBtn" type="button"></button>
+              <a href="#">I already have an account</a>
+            </div>
+          </div>
     </section>
 </article>
 
@@ -111,36 +194,149 @@
 <article class="news">
     <h1>News</h1>
     <section class="news-container">
-
+        <!--News card 1-->
+        <div class="card text-bg-dark">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <!--News card 2-->
+          <div class="card text-bg-dark">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
     </section>
-    <button class="bigButton"></button>
+    <!--Read More Articles Button-->
+    <button class="bigBtn" type="button"></button>
 </article>
 
 <!-- State of the game and meta game-->
 <article class="gameState">
+    <!--Leaderboards container-->
     <aside class="leaderboards">
         <h2>Leaderboards</h2>
+        <!--List of names-->
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+        <!--Expand list Button-->
+        <button class="mainBtn" type="button"></button>
     </aside>
+    <!--Editions container-->
     <section class="editions-container">
         <h1>Editions List</h1>
+        <!--Editions list-->
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small>3 days ago</small>
+              </div>
+              <p class="mb-1">Some placeholder content in a paragraph.</p>
+              <small>And some small print.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-body-secondary">3 days ago</small>
+              </div>
+              <p class="mb-1">Some placeholder content in a paragraph.</p>
+              <small class="text-body-secondary">And some muted small print.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-body-secondary">3 days ago</small>
+              </div>
+              <p class="mb-1">Some placeholder content in a paragraph.</p>
+              <small class="text-body-secondary">And some muted small print.</small>
+            </a>
+        </div>
+        <!--More Editions list Button-->
+        <button class="mainBtn" type="button"></button>
     </section>
 </article>
 
 <!-- CTA to buy expansions-->
 <article class="buyExpansions">
+    <!--Buy Expansions-->
     <section class="buy-container">
-
+        <div class="container my-5">
+            <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+              <button type="button" class="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill" aria-label="Close"></button>
+              <svg class="bi mt-5 mb-3" width="48" height="48"><use xlink:href="#check2-circle"/></svg>
+              <h1 class="text-body-emphasis">Placeholder jumbotron</h1>
+              <p class="col-lg-6 mx-auto mb-4">
+                This faded back jumbotron is useful for placeholder content. It's also a great way to add a bit of context to a page or section when no content is available and to encourage visitors to take a specific action.
+              </p>
+              <button class="btn btn-primary px-5 mb-5" type="button">
+                Call to action
+              </button>
+            </div>
+          </div>
     </section>
 </article>
 
 <!-- Footer-->
 <footer class="footer-main">
-    <div class="footer-logo-D">
-
-    </div>
-    <section class="footer list">
-        
-    </section>
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <p class="text-body-secondary">&copy; 2023</p>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
 </footer>
 
 <!-- jQuery-->
