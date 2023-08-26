@@ -1,0 +1,77 @@
+.navbar{
+height: 132px;
+flex-shrink: 0;
+background: var(--primary-light, #F6F6ED);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
+}
+.navbar-brand, img{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+.settingsBtn{
+display: flex;
+width: 204px;
+height: 60px;
+padding: 12px;
+align-items: flex-start;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #F6F6ED;
+background: var(--secondary-gold, #FEC955);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
+}
+.p-5{
+    background-image: url('Images/base.webp');
+    background-size: cover;
+    height: 400px;
+    background-position-y: -150px;
+}
+.overview-explain{
+    margin-top: 0;
+    height: 526px;
+    flex-shrink: 0;
+    background: var(--primary-light, #F6F6ED);
+}
+
+/* TYPOGRAPHY */
+h1{
+    color: #3FACCE;
+    font-family: Fondamento, cursive;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 108px */
+    letter-spacing: -1.656px;
+}
+h2{
+    color:  #3FACCE;
+    text-align: center;
+    font-family: Fondamento, cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 60px */
+    letter-spacing: -0.92px;
+}
+h3{
+    color: var(--primary-blue, #3FACCE);
+font-family: Fondamento, cursive;
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%; /* 36px */
+letter-spacing: -0.552px;
+}
+p{
+    color: var(--greyscale-black-0, #242424);
+    font-family: Enriqueta, Georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.46px;
+}
