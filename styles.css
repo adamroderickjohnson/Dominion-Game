@@ -40,6 +40,17 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
     background-image: url('Images/inheritance.webp');
     background-size: cover;
 }
+.footerJumbo{
+    background-image: url('Images/adventures.webp');
+    background-size: cover;
+}
+.goldenButton{
+    width: 144px;
+height: 144px;
+flex-shrink: 0;
+    background-color: var(--secondary-gold, #FEC955);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 /* TYPOGRAPHY */
 h1{
@@ -72,10 +83,20 @@ letter-spacing: -0.552px;
 }
 p{
     color: var(--greyscale-black-0, #242424);
-    font-family: Enriqueta, Georgia, serif;
+    font-family: Enriqueta, Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 30px */
     letter-spacing: -0.46px;
+}
+.caption{
+    color: var(--secondary-gold, #FEC955);
+/* Misc_LG Caption */
+font-family: Enriqueta, Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+letter-spacing: -0.46px;
 }
