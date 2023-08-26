@@ -36,6 +36,10 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
     flex-shrink: 0;
     background: var(--primary-light, #F6F6ED);
 }
+.join-container{
+    background-image: url('Images/inheritance.webp');
+    background-size: cover;
+}
 
 /* TYPOGRAPHY */
 h1{
