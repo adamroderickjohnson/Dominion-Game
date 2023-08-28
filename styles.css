@@ -29,7 +29,7 @@
 /* PAGE STYLING */
 .p-5{
     background-image: url('Images/base.webp');
-    background-size: cover;
+    background-size: cover no-repeat;
     height: 400px;
     background-position-y: -150px;
 }
@@ -54,6 +54,27 @@
     background-color: var(--secondary-gold, #FEC955);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+/* Cards */
+.card{
+    background: var(--tertiary-fog, #E3EDEB);
+    /* align-items: center; */
+}
+
+.card, .card-title{
+    color: var(--primary-blue, #3FACCE);
+    
+}
+.card-img-top{    
+
+}
+.card-body{
+    width: 299px;
+    height: 273px;
+    flex-shrink: 0;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
 /* BUTTON STLYING */
 button, .mainBtn{
     display: inline-flex;
