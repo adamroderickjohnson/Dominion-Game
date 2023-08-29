@@ -98,6 +98,11 @@ img {
     margin: auto;
 }
 
+/* Game State Styling */
+.gameState{
+    height: 600px;
+}
+
 /* Buy Expansions Styling */
 .goldenButton{
     width: 160px;
@@ -125,6 +130,12 @@ button, .mainBtn{
     background: var(--primary-light, #F6F6ED);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
 
+}
+
+button, .mainBtn:hover{
+    border-radius: 10px;
+    border: 1px solid var(--tertiary-fog, #E3EDEB);
+    background: var(--primary-blue, #3FACCE);
 }
 /* TYPOGRAPHY */
 h1{
