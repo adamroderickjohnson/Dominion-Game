@@ -95,7 +95,12 @@ img {
     background-size: cover;
     height: 400px;
 }
-
+.separator{
+    background: url("Icons/Game Icons/Redesign/separatorAsset 1.svg");
+    width: 180px;
+    height: 0px;
+    flex-shrink: 0;
+}
 
 /* Overview Card */
 .overview-explain{
@@ -123,8 +128,8 @@ img {
     .caligraphy-wrapper {
         display: block;
         position: absolute;
-        top:20px;
-        right: 24px;
+        top:0px;
+        right: 0px;
         width: 150px;
         z-index: 2;
     }
@@ -199,6 +204,10 @@ button, .mainBtn:active{
     background: var(--primary-light, #F6F6ED);
     color: var(--secondary-gold, #FEC955);
 }
+
+.benefitsButton{
+
+}
 /* TYPOGRAPHY */
 h1{
     color: #3FACCE;
@@ -262,6 +271,6 @@ li a{
 }
 
 /*SVG Elements*/
-.Leaf{
-    z-index: 0;
+.leaf{
+    z-index: -1;
 }
