@@ -27,17 +27,34 @@
 }
 
 /* PAGE STYLING */
-.p-5{
+.jumbotron-hills{
     background-image: url('Images/base.webp');
     background-size: cover no-repeat;
     height: 400px;
     background-position-y: -150px;
 }
 .overview-explain{
+    position: relative;
     margin-top: 0;
-    height: 526px;
-    flex-shrink: 0;
     background: var(--primary-light, #F6F6ED);
+}
+.overview-explain img {
+    width: 100%;
+    height: auto;
+}
+.caligraphy-wrapper {
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .caligraphy-wrapper {
+        display: block;
+        position: absolute;
+        bottom: 22px;
+        right: 50%;
+    
+        width: 59px;
+        z-index: 2;
+    }
 }
 .join-container{
     background-image: url('Images/inheritance.webp');
@@ -57,22 +74,36 @@
 /* Cards */
 .card{
     background: var(--tertiary-fog, #E3EDEB);
-    /* align-items: center; */
 }
 
-.card, .card-title{
+.card .card-title{
     color: var(--primary-blue, #3FACCE);
+}
+.overview-explain{
+    position: relative;
+    margin-top: 0;
+    background: var(--primary-light, #F6F6ED);
+}
+.overview-explain img {
+    width: 100%;
+    height: auto;
+}
+.caligraphy-wrapper {
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .caligraphy-wrapper {
+        display: block;
+        position: absolute;
+        bottom: 22px;
+        right: 50%;
     
+        width: 59px;
+        z-index: 2;
+    }
 }
-.card-img-top{    
-
-}
-.card-body{
-    width: 299px;
-    height: 273px;
-    flex-shrink: 0;
-    margin-left: auto; 
-    margin-right: 0;
+.overview-explain .card-body{
+    margin: 0 32px;
 }
 
 /* BUTTON STLYING */
