@@ -27,7 +27,7 @@ img {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
 }
 
-/* PAGE STYLING */
+/* PAGE BG IMAGES */
 .jumbotron-hills{
     background-image: url('Images/base.webp');
     background-size: cover no-repeat;
@@ -41,14 +41,9 @@ img {
 .footerJumbo{
     background-image: url('Images/adventures.webp');
     background-size: cover;
+    height: 400px;
 }
-.goldenButton{
-    width: 144px;
-    height: 144px;
-    flex-shrink: 0;
-    background-color: var(--secondary-gold, #FEC955);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+
 
 /* Overview Card */
 .overview-explain{
@@ -83,14 +78,35 @@ img {
     }
 }
 .overview-explain .card-body{
-    margin: 0 32px;
+    margin: 0 24px;
 }
 
 /*Benefits Cards */
-.svg-benefits{
-    padding:20 px;
+
+/* FORM STYLING */
+.form-signin .card{
+    padding: 24px;
 }
 
+/* News Cards */
+.news-container .card{
+    margin: auto;
+}
+
+/* Buy Expansions Styling */
+.goldenButton{
+    width: 160px;
+    height: 160px;
+    /* flex-shrink: 0; */
+    border-radius: 100%;
+    background-color: var(--secondary-gold, #FEC955);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.goldenButton #Treasure{
+    display: inline-block;
+    justify-content: space-around;
+    width: 75%;
+}
 
 /* BUTTON STLYING */
 button, .mainBtn{
@@ -114,6 +130,10 @@ h1{
     font-weight: 400;
     line-height: 150%; /* 108px */
     letter-spacing: -1.656px;
+}
+
+.news, .gamePhases h1{
+    text-align: center;
 }
 h2{
     color:  #3FACCE;
