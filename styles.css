@@ -4,6 +4,9 @@ img {
     height: auto;
 }
 
+/* svg{
+    fill: white;
+} */
 
 /* NAV BAR STYLING */
 .navbar{
@@ -83,7 +86,9 @@ img {
 
 /*Benefits Cards */
 
-/* FORM STYLING */
+/* Phases Cards */
+
+/* Form Card */
 .form-signin .card{
     padding: 24px;
 }
