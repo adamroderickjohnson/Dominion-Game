@@ -33,29 +33,6 @@
     height: 400px;
     background-position-y: -150px;
 }
-.overview-explain{
-    position: relative;
-    margin-top: 0;
-    background: var(--primary-light, #F6F6ED);
-}
-.overview-explain img {
-    width: 100%;
-    height: auto;
-}
-.caligraphy-wrapper {
-    display: none;
-}
-@media screen and (min-width: 1200px) {
-    .caligraphy-wrapper {
-        display: block;
-        position: absolute;
-        bottom: 22px;
-        right: 50%;
-    
-        width: 59px;
-        z-index: 2;
-    }
-}
 .join-container{
     background-image: url('Images/inheritance.webp');
     background-size: cover;
@@ -71,12 +48,15 @@
     background-color: var(--secondary-gold, #FEC955);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.overview-explain .card-body{
+    margin: 0 32px;
+}
 /* Cards */
 .card{
     background: var(--tertiary-fog, #E3EDEB);
 }
 
-.card .card-title{
+.card, .card-title{
     color: var(--primary-blue, #3FACCE);
 }
 .overview-explain{
