@@ -4,10 +4,6 @@ img {
     height: auto;
 }
 
-/* svg{
-    fill: white;
-} */
-
 /* NAV BAR STYLING */
 .navbar{
     height: 132px;
@@ -28,11 +24,18 @@ img {
     letter-spacing: -0.46px;
     justify-content: space-between;
 }
+
+.dropdown-toggle:hover{
+    background: var(--primary-blue, #3FACCE);
+    color: var(--primary-light, #F6F6ED);
+}
+
 .dropdown-menu{
     color: var(--primary-blue, #3FACCE);
 }
 
 .dropdown-item{
+    font-weight: 700;
     background: var(--secondary-gold, #FEC955);
     display: inline-flex;
     padding: 14px 60px;
@@ -45,6 +48,7 @@ img {
 .dropdown-item:hover{
     background: var(--primary-blue, #3FACCE);
     color: var(--secondary-gold, #FEC955);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
 }
 
 .settingsBtn{
@@ -129,7 +133,10 @@ img {
     margin: 0 24px;
 }
 
-/*Benefits Cards */
+/* Benefits Cards */
+.digitalBenefits{
+    z-index: 1;
+}
 
 /* Phases Cards */
 
@@ -170,17 +177,27 @@ button, .mainBtn{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding:12px;
     border-radius: 10px;
     border: 1px solid var(--tertiary-fog, #E3EDEB);
     background: var(--primary-light, #F6F6ED);
+    color: var(--primary-blue, #3FACCE);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
     font-family: Enriqueta;
+    font-weight: 700;
 }
 
 button, .mainBtn:hover{
     border-radius: 10px;
     border: 1px solid var(--tertiary-fog, #E3EDEB);
     background: var(--primary-blue, #3FACCE);
+    color: var(--secondary-gold, #FEC955);
+}
+
+button, .mainBtn:active{
+    border: 1px solid var(--tertiary-fog, #E3EDEB);
+    background: var(--primary-light, #F6F6ED);
+    color: var(--secondary-gold, #FEC955);
 }
 /* TYPOGRAPHY */
 h1{
@@ -242,4 +259,9 @@ li a{
     font-weight: 900;
     line-height: 150%; /* 30px */
     letter-spacing: -0.46px;
+}
+
+/*SVG Elements*/
+.Leaf{
+    z-index: 0;
 }
