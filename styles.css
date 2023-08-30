@@ -276,10 +276,43 @@ li a{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Gear.svg');
     width: 50px;
     height: 50px;
+    display: inline-block;
 }
 
 .landscape{
-    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Gear.svg');
-    width: 50px;
-    height: 50px;
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Land.svg');
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.potion{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Potion.svg');
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.sword{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Swords.svg');
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-items: center;
+}
+
+.coin{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Coin.svg');
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-items: center;
+}
+
+.trash{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823.svg');
+    width: 250px;
+    height: 250px;
+    display: block;
+    justify-items: center;
 }
