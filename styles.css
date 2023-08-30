@@ -56,7 +56,7 @@ img {
     width: 204px;
     height: 60px;
     padding: 12px;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -73,9 +73,9 @@ img {
 .settingsBtn:hover{
     border: 1px solid var(--primary-light, #F6F6ED);
     background: var(--greyscale-black-1, #C8C8C8);
-    display: inline-flex;
+    display: flex;
     padding: 12px;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
 }
 
@@ -275,4 +275,11 @@ li a{
 .gear{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Gear.svg');
     width: 50px;
+    height: 50px;
+}
+
+.landscape{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Gear.svg');
+    width: 50px;
+    height: 50px;
 }
