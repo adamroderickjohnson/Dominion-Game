@@ -272,6 +272,7 @@ li a{
 }
 
 /*SVG Elements*/
-.leaf{
-    z-index: -1;
+.gear{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Gear.svg');
+    width: 50px;
 }
