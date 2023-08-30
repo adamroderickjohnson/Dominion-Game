@@ -170,12 +170,17 @@ img {
     background-color: var(--secondary-gold, #FEC955);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.goldenButton #Treasure{
-    display: inline-block;
-    justify-content: space-around;
-    width: 75%;
-}
 
+.bigBtn{
+    display: inline-flex;
+    padding: 40px 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--greyscale-black-1, #C8C8C8);
+    background: var(--secondary-gold, #FEC955);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 /* BUTTON STLYING */
 button, .mainBtn{
     display: inline-flex;
@@ -313,6 +318,13 @@ li a{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823.svg');
     width: 250px;
     height: 250px;
+    display: block;
+    justify-items: center;
+}
+.treasure{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Treasure.svg');
+    width: 100px;
+    height: 100px;
     display: block;
     justify-items: center;
 }
