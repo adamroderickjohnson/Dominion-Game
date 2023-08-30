@@ -96,10 +96,10 @@ img {
     height: 400px;
 }
 .separator{
-    background: url("Icons/Game Icons/Redesign/separatorAsset 1.svg");
+    background: url("Icons/Game Icons/Redesign/separatorAsset1.svg");
     width: 180px;
     height: 0px;
-    flex-shrink: 0;
+    content: '';
 }
 
 /* Overview Card */
@@ -141,6 +141,7 @@ img {
 /* Benefits Cards */
 .digitalBenefits{
     z-index: 1;
+    margin: ;
 }
 
 /* Phases Cards */
