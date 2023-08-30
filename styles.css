@@ -361,3 +361,11 @@ li a{
     display: block;
     justify-items: center;
 }
+
+.leaf{
+    background: url('Icons/Game-Icons/Redesign/Generated_icons-0823_Leaf.svg');
+    width: 313px;
+    height: 115px;
+    display: block;
+    position: absolute;
+}
