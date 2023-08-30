@@ -144,13 +144,37 @@ img {
     margin: 0;
 }
 
-/* Phases Cards */
-
-/* Form Card */
-.form-signin .card{
-    padding: 24px;
+.benefits-container .card{
+    background-color: #F6F6ED;
+    border: 1px solid var(--primary-light);
 }
 
+/* Phases Cards */
+.phases-container .card{
+    background-color: #F6F6ED;
+    border: 1px solid var(--primary-light);
+}
+
+/* Join Card */
+.form-signin .card{
+    padding: 24px;
+    background-color: #F6F6ED;
+    border: 1px solid var(--primary-light);
+}
+.form-signin label{
+    color:#242424;
+}
+.form-signin h2{
+    color: #3FACCE;
+}
+.form-signin a{
+    text-decoration: none;
+    color:#242424;
+    font-weight: 700;
+}
+.form-signin a:hover{
+    color: #3FACCE;
+}
 /* News Cards */
 .news-container .card{
     margin: auto;
