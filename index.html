@@ -188,21 +188,25 @@
 <section class="benefits-container container-fluid">
   <div class="row m-4">
       <!--card left aligned image 1-->
-      <div class="card col-sm-6 mb-3">
-        <div class="row g-0">
-          <div class="svg-benefits col-md-4 landscape">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Play Worldwide</h3>
-              <p class="card-text">Whether with a group of friends or a gaggle of bots, Dominion has a dedicated human and A.I. playerbase</p>
-              <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+      <div class="col-sm-6">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="svg-benefits col-md-4 landscape">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">Play Worldwide</h3>
+                <p class="card-text">Whether with a group of friends or a gaggle of bots, Dominion has a dedicated human and A.I. playerbase</p>
+                <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
+      
     <!--card left aligned image 2-->
-      <div class="card col-sm-6 mb-3">
+    <div class="col-sm-6">
+      <div class="card mb-3">
         <div class="row g-0">
           <div class="svg-benefits col-md-4 potion">
           </div>
@@ -215,12 +219,24 @@
           </div>
         </div>
       </div>
+    </div>
+      
     <!--END CARD-->
   </div>
   <!--END ROW-->
+
+  <!--Find out More Button-->
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <button class="mainBtn benfitsButton" type="button">FIND OUT MORE</button>
+    </div>
+    <div class="col-4"></div>
+  </div>
+  <!--End Button-->
 </section>
-   <!--Find out More Button-->
-   <button class="mainBtn benefitsButton" type="button">FIND OUT MORE</button>
+   
+   
 </article>
 
 <!-- Phases of a Dominion game-->
@@ -228,38 +244,67 @@
     <h1>Phases of the Game</h1>
     <section class="phases-container">
         <!--Action Buy and Clean-up Cards-->
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-0">
             <div class="col">
               <div class="card">
-                <div class="sword"></div>
                 <div class="card-body">
-                  <h2 class="card-title">Action</h2>
-                  <p class="card-text">Players can play one Action card from their hand, which might grant them special abilities, extra actions, or extra card draws</p>
+                  <div class="sword"></div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-                <div class="coin"></div>
                 <div class="card-body">
-                  <h2 class="card-title">Buy</h2>
-                  <p class="card-text">Players can spend their coins (from treasure cards played) to buy new cards from the supply.</p>
+                  <div class="coin"></div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-                <div class="trash"></div>
                 <div class="card-body">
-                  <h2 class="card-title">Clean-up</h2>
-                  <p class="card-text">Players place all played cards and any unspent coins into their discard pile. Then, they draw a new hand of 5 cards.</p>
+                  <div class="trash"></div>
                 </div>
               </div>
             </div>
           </div>
+        <!--Copy Cards under icons-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+          <div class="col rules">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Action</h2>
+                <p class="card-text">Players can play one Action card from their hand, which might grant them special abilities, extra actions, or extra card draws</p>
+              </div>
+            </div>
+          </div>
+          <div class="col rules">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Buy</h2>
+                <p class="card-text">Players can spend their coins (from treasure cards played) to buy new cards from the supply.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col rules">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Clean-up</h2>
+                  <p class="card-text">Players place all played cards and any unspent coins into their discard pile. Then, they draw a new hand of 5 cards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--End copy cards--> 
+      <!--Button-->
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <button class="bigBtn mt-3" type="button"><div class="flag"></div>LEARN ADVANCED RULES</button>
+        </div>
+        <div class="col-3"></div>
+      </div>                  
     </section>
     <!--Learn Advanced Rules Button-->
-    <button class="bigBtn" type="button"><div class="flag"></div>LEARN ADVANCED RULES</button>
 </article>
 
 <!-- CTA to sign up 'Join Now' for Dominion-->

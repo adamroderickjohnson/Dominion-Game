@@ -160,6 +160,14 @@ img {
     border: 1px solid var(--primary-light);
 }
 
+.rules .card{
+    background-color: var(--tertiary-fog, #E3EDEB);
+}
+
+.phases-container .card-body{
+    height: 280px;
+}
+
 /* Join Card */
 .form-signin .card{
     padding: 24px;
@@ -291,7 +299,11 @@ button, .mainBtn:active{
     background: var(--primary-blue, #3FACCE);
     color:#F6F6ED ;
 }
-
+.benfitsButton{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 /* TYPOGRAPHY */
 h1{
@@ -391,26 +403,32 @@ li a{
 
 .sword{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Swords.svg');
-    width: 250px;
+    width: 100%;
     height: 250px;
     display: block;
     justify-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .coin{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Coin.svg');
-    width: 250px;
+    width: 100%;
     height: 250px;
     display: block;
     justify-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .trash{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823.svg');
-    width: 250px;
+    width: 100%;
     height: 250px;
     display: block;
     justify-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .treasure{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Treasure.svg');
@@ -426,6 +444,8 @@ li a{
     height: 60px;
     display: block;
     justify-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .leaf{
