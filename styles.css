@@ -217,7 +217,15 @@ img {
 
 /* Game State Styling */
 .gameState{
-    height: 600px;
+    height: 652px;
+}
+.leaderboards{
+    height: 652px;
+    background: #E3EDEB;
+}
+.editions-container{
+    background: var(--primary-light, #F6F6ED);
+
 }
 
 /* Buy Expansions Styling */
@@ -432,4 +440,16 @@ li a{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Top-OrnamentAsset-1.svg');
     width: 100%;
     height: 60px;
+}
+
+.crown{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Crown.svg');
+    width: 80px;
+    height: 80px
+}
+
+.estate{
+    background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Estate.svg');
+    width: 80px;
+    height: 80px
 }
