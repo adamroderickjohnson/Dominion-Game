@@ -160,14 +160,16 @@ img {
     border: 1px solid var(--primary-light);
 }
 
-.rules .card{
-    background-color: var(--tertiary-fog, #E3EDEB);
-}
-
 .phases-container .card-body{
     height: 280px;
+    display:flex;
+    justify-content: center;
 }
-
+.rules .card-body{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--tertiary-fog, #E3EDEB);
+}
 /* Join Card */
 .form-signin .card{
     padding: 24px;
@@ -408,7 +410,7 @@ li a{
 
 .sword{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Swords.svg');
-    width: 100%;
+    width: 250px;
     height: 250px;
     display: block;
     justify-items: center;
@@ -418,7 +420,7 @@ li a{
 
 .coin{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Coin.svg');
-    width: 100%;
+    width: 250px;
     height: 250px;
     display: block;
     justify-items: center;
@@ -428,7 +430,7 @@ li a{
 
 .trash{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823.svg');
-    width: 100%;
+    width: 250px;
     height: 250px;
     display: block;
     justify-items: center;
