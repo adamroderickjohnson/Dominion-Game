@@ -279,8 +279,9 @@ button, .mainBtn:active{
 }
 
 .bigBtn{
+    width:100%;
     display: inline-flex;
-    padding: 40px 200px;
+    padding: 20px 80px;
     color:#242424;
     justify-content: center;
     align-items: center;
@@ -367,6 +368,10 @@ p{
     font-weight: 400;
     line-height: 150%; /* 30px */
     letter-spacing: -0.46px;
+}
+.form-signin .caption{
+    text-align: center;
+    display: block;
 }
 li a{
     color: var(--greyscale-black-0, #242424);
