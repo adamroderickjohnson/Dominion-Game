@@ -234,16 +234,42 @@ img {
     height: 652px;
 }
 .leaderboards{
-    height: 652px;
     background: #E3EDEB;
+    height: 652px;
 }
 .editions-container{
     background: var(--primary-light, #F6F6ED);
+    height: 652px;
 }
 .list-group{
     max-width: 400px;
     display: flex;
     flex-direction: column;
+}
+
+.editions-List .list-group{
+    max-width: 500px;
+    display: flex;
+    align-items: flex-start;
+    margin: 12px;
+}
+.form-check-input{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.form-check-input:checked{
+    background: #FEC955;
+    border-color: rgba(0, 0, 0, 0);
+}
+.editions-List .list-group-item{
+    width: 100%;
+    background-color: #F6F6ED;
+    display: flex;
+}
+
+.list-group-item.disabled{
+   background-color: var(--greyscale-50-black-0, rgba(36, 36, 36, 0.50));
 }
 
 /* Buy Expansions Styling */
@@ -320,6 +346,15 @@ button, .mainBtn:active{
     justify-content: center;
 }
 
+.special{
+    background-color: #FEC955;
+    color: #242424;
+}
+
+.special:hover{
+    background-color: #E3EDEB;
+    color:#3FACCE;
+}
 /* TYPOGRAPHY */
 h1{
     color: #3FACCE;
@@ -348,6 +383,10 @@ h2{
 .news h2{
     text-align: left;
     color: var(--primary-blue, #3FACCE);
+}
+
+.list-group-item.disabled h2{
+    color: #242424;
 }
 
 h3{

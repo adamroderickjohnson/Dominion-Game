@@ -437,30 +437,32 @@
             <div class="estate col-2 m-4"></div>
             <div class="editions-List col-10">
               <h1>Editions List</h1>
+              <p>Search active (checked) editions for card lists</p>
               <!--Editions list-->
-              <div class="list-group">
-                  <a href="#" class="list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h2 class="mb-1">Plunder</h2>
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h2 class="mb-1">Hinterlands</h2>
-                     
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h2 class="mb-1">Prosperity</h2>
-                   
-                  </a>
-                  <a href="#" class="list-group-item disabled">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h2 class="mb-1">Seaside</h2>
-                  </a>
-              </div>
-            </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
+                  Plunder</h2></li>
+                <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
+                  Hinterlands</h2></li>
+                <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
+                  Prosperity</h2></li>
+                <li class="list-group-item disabled"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." disabled></span>
+                  Seaside (sunsetting)</h2></li>
+              </ul>
+              <div class="row">
+                <div class="col-2 mx-3">
+                  <button class="mainBtn special" type="button">SEARCH</button>
+                </div>
+                <div class="col-4 mx-3">
+                  <button class="mainBtn" type="button">ALL EDITIONS</button>
+                </div>
+
               <!--More Editions list Button-->
-              <button class="mainBtn" type="button">MORE EDITIONS</button>
+              
+              </div>
+            
+            </div>
+              
           </section>
         </div>
       </div>
