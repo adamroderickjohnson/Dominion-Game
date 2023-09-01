@@ -191,18 +191,23 @@ img {
     color: #3FACCE;
 }
 /* News Cards */
+.news-container{
+    max-width: 1080px;
+    margin: auto;
+}
 .news-container .card{
-    width: 620px;
+    display: flex;
+    /* width: 620px; */
     height: 412px;
-    gap: 10px;
+    /* gap: 10px; */
     position: relative;
 }
 .card-img-overlay{
-    display: block;
+    display:block;
     position: absolute;
-    width: 620px;
-    bottom: 0px;
-    height: 136px;
+    /* width: 620px; */
+    top: 0px;
+    height: 200px;
     background: var(--primary-light, #F6F6ED);
     border-radius: 0px 0px 10px 10px;
 }

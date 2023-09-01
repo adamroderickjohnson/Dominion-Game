@@ -188,12 +188,12 @@
 <section class="benefits-container container-fluid">
   <div class="row m-4">
       <!--card left aligned image 1-->
-      <div class="col-sm-6">
+      <div class="col-md-6">
         <div class="card mb-3">
           <div class="row g-0">
-            <div class="svg-benefits col-md-4 landscape">
+            <div class="svg-benefits col-md-4 col-sm-6 landscape">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-6">
               <div class="card-body">
                 <h3 class="card-title">Play Worldwide</h3>
                 <p class="card-text">Whether with a group of friends or a gaggle of bots, Dominion has a dedicated human and A.I. playerbase</p>
@@ -205,12 +205,12 @@
       </div>
       
     <!--card left aligned image 2-->
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="svg-benefits col-md-4 potion">
+          <div class="svg-benefits col-md-4 col-sm-6 potion">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 col-sm-6">
             <div class="card-body">
               <h3 class="card-title">Community Support</h3>
               <p class="card-text">We have one of the most active, welcoming communities of players, and an ever growing catalog of cards</p>
@@ -349,35 +349,51 @@
 <article class="news">
   <div class="leaf" style="transform: scaleX(-1); right:0px;"></div>
     <h1>News</h1>
-    <section class="container-md">
-      <div class="row news-container">
+    <section class="container-fluid">
+      <div class="row news-container my-4">
           <!--News card 1-->
-          <div class="col-1"></div>
-          <div class="card col-4">
-            <p class="caption card-text"><small>August 21, 2023</small></p>
-            <div class="card-img-1" alt="two people playing cards"></div>
-            <div class="card-img-overlay">
-              <h2 class="card-title">Protect those cards!</h2>
-              <h3 class="card-text">Novel ways to keep your Dominion Trading Cards clean...</h3>
+          <div class="col col-md-6">
+            <div class="card">
+              <div class="card-img-overlay">
+                <h2 class="card-title">Protect those cards!</h2>
+                <h3 class="card-text">Novel ways to keep your Dominion Trading Cards clean...</h3>
+                <p class="caption card-text"><small>August 21, 2023</small></p>
+              </div>
+              <div class="card-img-1" alt="two people playing cards"></div>
             </div>
           </div>
-          <div class="col-2"></div>
+
           <!--News card 2-->
-          <div class="card col-4">
-            <p class="caption card-text"><small>July 29, 2023</small></p>
-            <div class="card-img-2" alt="groups of friends playing cards and having beer"></div>
-            <div class="card-img-overlay">
-              <h2 class="card-title">Board game nights near you</h2>
-              <h3 class="card-text">Look at our growing list of board game stores sorted...</h3>
+          <div class="col col-md-6">
+            <div class="card">
+              <div class="card-img-overlay">
+                <h2 class="card-title">Board game nights near you</h2>
+                <h3 class="card-text">Look at our growing list of board game stores sorted...</h3>
+                <p class="caption card-text"><small>July 29, 2023</small></p>
+              </div>
+              <div class="card-img-2" alt="groups of friends playing cards and having beer"></div>
             </div>
           </div>
-          <div class="col-1"></div>
+         
+
           <!--END NEWS CARDS-->
       </div>
-       
+      <!--END NEWS CONTAINER-->
+          <!--Read More Articles Button-->
+      <div class="row">
+        <div class="col-4 empty">
+
+        </div>
+        <div class="col-4">
+          <button class="bigBtn" type="button"><div class="flag"></div>READ MORE ARTICLES</button>
+        </div>
+        <div class="col-4 empty">
+          
+        </div>
+      </div>
+
     </section>
-    <!--Read More Articles Button-->
-    <button class="bigBtn" type="button"><div class="flag"></div>READ MORE ARTICLES</button>
+
 </article>
 
 <!-- State of the game and meta game-->
