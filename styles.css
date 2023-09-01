@@ -380,6 +380,10 @@ p{
     text-align: center;
     display: block;
 }
+.gameState .caption{
+    background: var(--tertiary-fog);
+    color:#242424;
+}
 li a{
     color: var(--greyscale-black-0, #242424);
     text-align: center;
