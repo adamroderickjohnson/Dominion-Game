@@ -91,7 +91,8 @@ img {
 }
 .join-container{
     background-image: url('Images/inheritance.webp');
-    background-size: cover;
+    background-size: cover no-repeat;
+    background-position-y: -190px;
 }
 .footerJumbo{
     background-image: url('Images/adventures.webp');
