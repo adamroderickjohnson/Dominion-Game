@@ -93,18 +93,14 @@ img {
     background-image: url('Images/inheritance.webp');
     background-size: cover no-repeat;
     background-position-y: -190px;
+    padding:24px;
 }
 .footerJumbo{
     background-image: url('Images/adventures.webp');
     background-size: cover;
     height: 400px;
 }
-.separator{
-    background: url("Icons/Game Icons/Redesign/separatorAsset1.svg");
-    width: 180px;
-    height: 2px;
-    content: '';
-}
+
 
 /* Overview Card */
 .overview-explain{
@@ -125,20 +121,17 @@ img {
 .overview-explain .card .card-title{
     color: var(--primary-blue, #3FACCE);
 }
+
 .caligraphy-wrapper {
-    display: none;
+    display: block;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    width: 150px;
+    z-index: 2;
+    transform: scaleY(-1);
 }
-@media screen and (min-width: 1200px) {
-    .caligraphy-wrapper {
-        display: block;
-        position: absolute;
-        bottom:0px;
-        right: 0px;
-        width: 150px;
-        z-index: 2;
-        transform: scaleY(-1);
-    }
-}
+
 .overview-explain .card-body{
     margin: 0 24px;
 }
@@ -168,13 +161,17 @@ img {
 .rules .card-body{
     display:flex;
     flex-direction: column;
+    align-items: center;
     background-color: var(--tertiary-fog, #E3EDEB);
 }
 /* Join Card */
+
 .form-signin .card{
+    margin:auto;
     padding: 24px;
     background-color: #F6F6ED;
     border: 1px solid var(--primary-light);
+  
 }
 .form-signin label{
     color:#242424;
@@ -190,6 +187,12 @@ img {
 .form-signin a:hover{
     color: #3FACCE;
 }
+@media screen and (max-width: 1080px){
+    .form-signin .card{
+        min-width: 294px;
+    }
+
+}
 /* News Cards */
 .news-container{
     max-width: 1080px;
@@ -197,19 +200,28 @@ img {
 }
 .news-container .card{
     display: flex;
-    /* width: 620px; */
     height: 412px;
-    /* gap: 10px; */
     position: relative;
+    border: 0px;
 }
 .card-img-overlay{
-    display:block;
-    position: absolute;
-    /* width: 620px; */
-    top: 0px;
+    display: block;
+    width: 100%;
     height: 200px;
     background: var(--primary-light, #F6F6ED);
+    opacity: 95%;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
+}
+
+.dateBox{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background-color: #242424;
+    padding: 12px;
+    opacity: 75%;
+    width:50%;
 }
 
 .card-img-overlay:hover{
@@ -222,34 +234,39 @@ img {
     background-image: url('Images/Dominion_900.jpg');
     background-size: cover;
     height:696px;
+    border-radius: 0px 0px 10px 10px;
 }
 .card-img-2{
     background-image: url('Images/125Barkeep-820x564-1.jpg');
     background-size: cover;
     height:696px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 
 /* Game State Styling */
 .gameState{
-    height: 652px;
+    min-height: 700px;
 }
 .leaderboards{
     background: #E3EDEB;
-    height: 652px;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
 }
 .editions-container{
     background: var(--primary-light, #F6F6ED);
-    height: 652px;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
 }
 .list-group{
     max-width: 400px;
     display: flex;
-    flex-direction: column;
 }
 
 .editions-List .list-group{
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     align-items: flex-start;
     margin: 12px;
@@ -267,6 +284,7 @@ img {
     width: 100%;
     background-color: #F6F6ED;
     display: flex;
+    border:0px;
 }
 
 .list-group-item.disabled{
@@ -385,7 +403,9 @@ h2{
     text-align: left;
     color: var(--primary-blue, #3FACCE);
 }
-
+.leaderboards h2{
+    text-align: left;
+}
 .list-group-item.disabled h2{
     color: #242424;
 }
@@ -443,6 +463,14 @@ li a{
 }
 
 /*SVG Elements*/
+.separator{
+    background: url("Icons/Game-Icons/Redesign/Outlined-SVG/separatorAsset1.svg");
+    width: 180px;
+    height: 5px;
+    background-repeat: no-repeat;
+    padding-bottom: 12px;
+    display:block;
+}
 .gear{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Gear.svg');
     width: 50px;
@@ -535,4 +563,10 @@ li a{
     background: url('Icons/Game-Icons/Redesign/Outlined-SVG/Generated_icons-0823_Estate.svg');
     width: 80px;
     height: 80px
+}
+
+@media screen and (max-width: 1080px) {
+    .caligraphy-wrapper, .leaf {
+        display: none;
+    }    
 }

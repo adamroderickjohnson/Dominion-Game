@@ -78,7 +78,7 @@
 <!-- HERO with background image and overview of game-->
 <header class="overviewHero">
     <!--Narrow Hero Image-->
-    <div class="my-5">
+    <div class="">
         <div class="p-5 text-center bg-body-tertiary jumbotron-hills" alt="Fantasy medieval town with valley and mountains">
           <div class="container py-5">
           </div>
@@ -186,12 +186,14 @@
   </div>
     <h2>Benefits of Playing Dominion Online</h2>
 <section class="benefits-container container-fluid">
-  <div class="row m-4">
+  <div class="row">
       <!--card left aligned image 1-->
       <div class="col-md-6">
         <div class="card mb-3">
           <div class="row g-0">
-            <div class="svg-benefits col-md-4 col-sm-6 landscape">
+            <div class="col-md-4 col-sm-6">
+              <div class="svg-benefits landscape">
+              </div>
             </div>
             <div class="col-md-8 col-sm-6">
               <div class="card-body">
@@ -208,7 +210,9 @@
     <div class="col-md-6">
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="svg-benefits col-md-4 col-sm-6 potion">
+          <div class=" col-md-4 col-sm-6 ">
+            <div class="svg-benefits potion">
+            </div>
           </div>
           <div class="col-md-8 col-sm-6">
             <div class="card-body">
@@ -268,11 +272,12 @@
             </div>
           </div>
         <!--Copy Cards under icons-->
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-0">
           <div class="col rules">
             <div class="card">
               <div class="card-body">
                 <h2 class="card-title">Action</h2>
+                <div class="separator"></div>
                 <p class="card-text">Players can play one Action card from their hand, which might grant them special abilities, extra actions, or extra card draws.</p>
               </div>
             </div>
@@ -281,6 +286,7 @@
             <div class="card">
               <div class="card-body">
                 <h2 class="card-title">Buy</h2>
+                <div class="separator"></div>
                 <p class="card-text">Players can spend their coins (from treasure cards played) to buy new cards from the supply.</p>
               </div>
             </div>
@@ -289,7 +295,8 @@
             <div class="card">
               <div class="card-body">
                 <h2 class="card-title">Clean-up</h2>
-                  <p class="card-text">Players place all played cards and any unspent coins into their discard pile. Then, they draw a new hand of 5 cards.</p>
+                <div class="separator"></div>
+                <p class="card-text">Players place all played cards and any unspent coins into their discard pile. Then, they draw a new hand of 5 cards.</p>
               </div>
             </div>
           </div>
@@ -311,15 +318,15 @@
 <article class="joinBox">
   <div class="topDeco"></div>
     <section class="join-container">
-      <main class="form-signin w-50 m-auto p-5">
+      <main class="form-signin ">
         <form>
-          <div class="card">
+          <div class="card w-50 p-5">
             <h2 class="h2 mb-3 fw-normal">Join Now</h2>
-            <div class="form-floating">
+            <div class="form-floating m-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput" class="caption">Email address</label>
             </div>
-            <div class="form-floating">
+            <div class="form-floating m-3">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
               <label for="floatingPassword" class="caption">Password</label>
             </div>
@@ -350,48 +357,47 @@
   <div class="leaf" style="transform: scaleX(-1); right:0px;"></div>
     <h1>News</h1>
     <section class="container-fluid">
-      <div class="row news-container my-4">
+      <div class="row news-container">
           <!--News card 1-->
-          <div class="col col-md-6">
-            <div class="card">
-              <div class="dateBox">
-                <p class="caption card-text"><small>August 21, 2023</small></p>
-              </div>
+          <div class="col col-md-6 col-sm-12">
+            <div class="card my-sm-3">
               <div class="card-img-overlay">
                 <h2 class="card-title">Protect those cards!</h2>
+                <div class="separator"></div>
                 <h3 class="card-text">Novel ways to keep your Dominion Trading Cards clean...</h3>
+              </div>  
+              <div class="dateBox">
+                <p class="caption card-text"><small>August 21, 2023</small></p>
               </div>
               <div class="card-img-1" alt="two people playing cards"></div>
             </div>
           </div>
-
           <!--News card 2-->
-          <div class="col col-md-6">
-            <div class="card">
+          <div class="col col-md-6 col-sm-12">
+            <div class="card my-sm-3">
+              <div class="card-img-overlay">
+                <h2 class="card-title">Game nights near you</h2>
+                <div class="separator"></div>
+                <h3 class="card-text">Look at our growing list of board game stores sorted...</h3>
+              </div>
               <div class="dateBox">
                 <p class="caption card-text"><small>July 29, 2023</small></p>
-              </div>
-              <div class="card-img-overlay">
-                <h2 class="card-title">Board game nights near you</h2>
-                <h3 class="card-text">Look at our growing list of board game stores sorted...</h3>
               </div>
               <div class="card-img-2" alt="groups of friends playing cards and having beer"></div>
             </div>
           </div>
-         
-
           <!--END NEWS CARDS-->
       </div>
       <!--END NEWS CONTAINER-->
           <!--Read More Articles Button-->
       <div class="row">
-        <div class="col-4 empty">
+        <div class="col-4 col-sm-2 empty">
 
         </div>
-        <div class="col-4">
+        <div class="col-4 col-sm-8">
           <button class="bigBtn" type="button"><div class="flag"></div>READ MORE ARTICLES</button>
         </div>
-        <div class="col-4 empty">
+        <div class="col-4 col-sm-2 empty">
           
         </div>
       </div>
@@ -402,74 +408,91 @@
 
 <!-- State of the game and meta game-->
 <article class="gameState container-lg">
-    <!--Leaderboards container-->
-    <div class="row my-lg-5">
-      <div class="col-4">
-        <aside class="leaderboards row">
-          <div class="col-2 mt-4">
-            <div class="crown"></div>
+
+    <div class="row">
+      <!--Leaderboards container-->
+      <div class="col-lg-4 col-md-12">
+        <aside class="leaderboards m-lg-5 m-sm-2 mt-sm-4">
+          <div class="row">
+            <div class="col-3">
+              <div class="crown m-4"></div>
+            </div>
+            <div class="col-9">
+              <div class="leaderboard-column m-4">
+                <h2>Leaderboards</h2>
+                <div class="separator"></div>
+                <!--List of names-->
+                <ul class="list-group list-group-flush mb-4">
+                    <li class="caption list-group-item">1. TommyBahama</li>
+                    <li class="caption list-group-item">2. LoadedPotato01</li>
+                    <li class="caption list-group-item">3. TreasureTrover</li>
+                    <li class="caption list-group-item">4. VictoryPointMaster</li>
+                    <li class="caption list-group-item">5. CardShuffleStrategist22</li>
+                    <li class="caption list-group-item">6. ActionPhase1Ace</li>
+                    <li class="caption list-group-item">7. Dominion08Duke</li>
+                    <li class="caption list-group-item">8. GoldGatherer</li>
+                    <li class="caption list-group-item">9. CVillage__360</li>
+                    <li class="caption list-group-item">10. CursedCuratorQT2</li>
+                  </ul>
+                <!--Expand list Button-->
+                <button class="mainBtn" type="button">FULL LIST</button>
+              </div>
+
+            </div>
           </div>
-          <div class="col-8 m-4">
-            <h2>Leaderboards</h2>
-            <!--List of names-->
-            <ul class="list-group list-group-flush mb-4">
-                <li class="caption list-group-item">1. TommyBahama</li>
-                <li class="caption list-group-item">2. LoadedPotato01</li>
-                <li class="caption list-group-item">3. TreasureTrover</li>
-                <li class="caption list-group-item">4. VictoryPointMaster</li>
-                <li class="caption list-group-item">5. CardShuffleStrategist22</li>
-                <li class="caption list-group-item">6. ActionPhase1Ace</li>
-                <li class="caption list-group-item">7. Dominion08Duke</li>
-                <li class="caption list-group-item">8. GoldGatherer</li>
-                <li class="caption list-group-item">9. CVillage__360</li>
-                <li class="caption list-group-item">10. CursedCuratorQT2</li>
-              </ul>
-            <!--Expand list Button-->
-            <button class="mainBtn" type="button">FULL LIST</button>
-          </div>
+
         </aside>
       </div>
      
     <!--Editions container-->
-    <div class="col-8">
-          <section class="editions-container">
+        <div class="col-lg-7 col-md-12">
+          <section class="editions-container m-lg-5 m-sm-2">
             <div class="row">
-            <div class="estate col-2 m-4"></div>
-            <div class="editions-List col-10">
-              <h1>Editions List</h1>
-              <p>Search active (checked) editions for card lists</p>
-              <!--Editions list-->
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
-                  Plunder</h2></li>
-                <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
-                  Hinterlands</h2></li>
-                <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
-                  Prosperity</h2></li>
-                <li class="list-group-item disabled"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." disabled></span>
-                  Seaside (sunsetting)</h2></li>
-              </ul>
-              <div class="row">
-                <div class="col-2 mx-3">
-                  <button class="mainBtn special" type="button">SEARCH</button>
-                </div>
-                <div class="col-4 mx-3">
-                  <button class="mainBtn" type="button">ALL EDITIONS</button>
-                </div>
-
-              <!--More Editions list Button-->
-              
-              </div>
-            
+            <div class="col-3">
+              <div class="estate m-4"></div>
             </div>
-              
+            <div class="col-9">
+              <div class="editions-List m-4">
+                <h1>Editions List</h1>
+                <div class="separator"></div>
+                <p>Search active (checked) editions for card lists</p>
+                <!--Editions list-->
+                <ul class="list-group list-group-flush m-md-3 m-sm-0">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-6">
+  
+                        <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
+                          Plunder</h2></li>
+                        <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
+                          Hinterlands</h2></li>
+  
+                        <li class="list-group-item"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." checked></span>
+                          Prosperity</h2></li>
+                        <li class="list-group-item disabled"><h2><span class="badge"><input class="form-check-input" type="checkbox" value="" aria-label="..." disabled></span>
+                          Seaside</h2></li>
+  
+                    </div>
+                  </div>
+                </ul>
+                                <!--More Editions list Button-->
+                <div class="row">
+                  <div class="col-2 mx-3">
+                    <button class="mainBtn special" type="button">SEARCH</button>
+                  </div>
+                  <div class="col-4 mx-3">
+                    <button class="mainBtn" type="button">ALL EDITIONS</button>
+                  </div>
+  
+
+                
+                </div>
+              </div>   
+            </div>
+           </div>   
           </section>
         </div>
-      </div>
-     <!--8 Column closing Div-->
     </div>
-    <!--Row Closing Div-->
-    </div>
+
 </article>
 
 <!-- CTA to buy expansions-->
