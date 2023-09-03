@@ -92,13 +92,15 @@ img {
 .join-container{
     background-image: url('Images/inheritance.webp');
     background-size: cover no-repeat;
-    background-position-y: -190px;
+    background-position-y: -100px;
     padding:24px;
 }
 .footerJumbo{
     background-image: url('Images/adventures.webp');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 400px;
+    background-position-y: -150px;
 }
 
 
@@ -293,18 +295,33 @@ img {
 
 /* Buy Expansions Styling */
 .goldenButton{
-    width: 160px;
-    height: 160px;
-    /* flex-shrink: 0; */
+    display:block;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     background-color: var(--secondary-gold, #FEC955);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
 }
 
+.buy-container{
+    width: 100%;
+}
+
+/* Footer styling */
 .footer-main{
     width: 100%;
     background-color: #F6F6ED;
 }
+
+.footer-main .container{
+    height: auto;
+}
+
+.footer-main img{
+    min-width: 250px;
+}
+
 
 /* BUTTON STLYING */
 button, .mainBtn{
@@ -461,6 +478,10 @@ li a{
     line-height: 150%; /* 30px */
     letter-spacing: -0.46px;
 }
+.footer-main li a{
+    text-align: left;
+    color:#3FACCE;
+}
 
 /*SVG Elements*/
 .separator{
@@ -526,7 +547,11 @@ li a{
     width: 100px;
     height: 100px;
     display: block;
-    justify-items: center;
+    margin:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+
 }
 
 .flag{
