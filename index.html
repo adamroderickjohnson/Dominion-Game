@@ -23,13 +23,13 @@
 <!--Top Navigation-->
 <nav class="nav-main">
 <!--bootstrap Nav-->
-  <nav class="navbar navbar-expand-sm fixed-top">
+  <nav class="navbar navbar-expand-xl fixed-top">
     <div class="container-fluid">
         <!--Logo-->
-        <a class="navbar-brand" href="#" style="max-width: 300px;">
+        <a class="navbar-brand" href="#" style="max-width: 300px; min-width: 200px;">
             <img src="Icons/Logo/Dominion PNG Dark.png" alt="Bootstrap" width="334" height="117">
           </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse mx-4" id="navbarNavDropdown">
@@ -68,9 +68,13 @@
             </ul>
           </li>
           <!--Settings Button-->
-          <button class="settingsBtn btn mx-4" type="button"><div class="gear"></div>SETTINGS</button>
+          <li class="nav-item">
+            <button class="settingsBtn btn mx-4" type="button"><div class="gear"></div>SETTINGS</button>
+          </li>
         </ul>
       </div>
+          
+
     </div>
   </nav>
 </nav>
@@ -548,7 +552,6 @@
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">• Contact Us</a></li>
             </ul>
           </div>
-         
         </footer>
       </div>
 </footer>
